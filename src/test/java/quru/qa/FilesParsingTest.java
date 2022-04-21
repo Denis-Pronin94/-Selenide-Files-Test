@@ -41,7 +41,7 @@ public class FilesParsingTest {
                 .getSheetAt(0)
                 .getRow(11)
                 .getCell(1)
-                .getStringCellValue()).contains("Сахалинская обл, Южно-Сахалинск");
+                .getStringCellValue()).contains("693010, Сахалинская обл, Южно-Сахалинск г, им Анкудинова Федора Степановича б-р, дом № 15, корпус А");
     }
 
     @Test
