@@ -1,0 +1,21 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation(
+            "org.junit.jupiter:junit-jupiter:5.8.2",
+            "com.codeborne:selenide:6.3.5",
+            "org.assertj:assertj-core:3.22.0",
+            "com.codeborne:pdf-test:1.7.0",
+            "com.codeborne:xls-test:1.4.0"
+    )
+}
+
+test {
+    useJUnitPlatform()
+}
